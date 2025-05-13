@@ -112,7 +112,8 @@ python main.py --dataname "$dataname" --method simple_KDE_VAE_encoding --mode sa
 ## 🧪 Baselines (excluding TabSyn)
 
 ```bash
-python main.py --dataname "$dataname" --method baseline --mode train
+python main.py --dataname "$dataname" --method "$baseline" --mode train
+python main.py --dataname "$dataname" --method "$baseline" --mode sample
 ```
 
 
