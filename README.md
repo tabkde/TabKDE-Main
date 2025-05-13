@@ -142,26 +142,16 @@ We evaluate the quality of synthetic data using metrics from various aspects.
 python eval/eval_density.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
 ```
 
-### 🎯 Alpha Precision and Beta Recall
-[Paper Link](https://arxiv.org/abs/2102.08921)
-
-- **α-Precision**: Fidelity of synthetic data  
-- **β-Recall**: Diversity of synthetic data
-
-```bash
-python eval/eval_quality.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
-```
-
 ### 🤖 Machine Learning Efficiency
 
 ```bash
-python eval/eval_mle.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
+python eval/eval_mle.py --dataname "$dataname" --model "$method"
 ```
 
 ### 🔒 Privacy Protection: Distance to Closest Record (DCR)
 
 ```bash
-python eval/eval_dcr.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
+python eval/eval_dcr.py --dataname "$dataname" --model "$method"
 ```
 
 *Note: The optimal DCR score depends on the ratio between #Train and #Holdout (#Test). Ideally, the DCR score should be:*  
@@ -171,6 +161,15 @@ python eval/eval_dcr.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --pat
 ### 🕵️ Detection: Classifier Two Sample Test (C2ST)
 
 ```bash
-python eval/eval_detection.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
+python eval/eval_detection.py --dataname "$dataname" --model "$method"
 ```
 
+### 🎯 Alpha Precision and Beta Recall
+[Paper Link](https://arxiv.org/abs/2102.08921)
+
+- **α-Precision**: Fidelity of synthetic data  
+- **β-Recall**: Diversity of synthetic data
+
+```bash
+python eval/eval_quality.py --dataname "$dataname"] --model "$method"
+```
