@@ -1,0 +1,53 @@
+{
+    "name": "train",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "X_Feature_1",
+        "X_Feature_2",
+        "X_Feature_3",
+        "X_Feature_4",
+        "X_Feature_5",
+        "X_Feature_6",
+        "X_Feature_7",
+        "X_Feature_8",
+        "X_Feature_9",
+        "Constant_Column",
+        "Y_Feature_1"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
+    "cat_col_idx": [
+        9
+    ],
+    "target_col_idx": [
+        10
+    ],
+    "file_type": "csv",
+    "data_path": "data/statlog-shuttle_rfm/train.csv",
+    "test_path": "data/statlog-shuttle_rfm/test.csv",
+    "column_info": {
+        "X_Feature_1": "float",
+        "X_Feature_2": "float",
+        "X_Feature_3": "float",
+        "X_Feature_4": "float",
+        "X_Feature_5": "float",
+        "X_Feature_6": "float",
+        "X_Feature_7": "float",
+        "X_Feature_8": "float",
+        "X_Feature_9": "float",
+        "Constant_Column": "str",
+        "Y_Feature_1": "float"
+    },
+    "train_num": 21750,
+    "test_num": 21750
+}

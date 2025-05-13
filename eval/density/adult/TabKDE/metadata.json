@@ -1,0 +1,72 @@
+{
+    "columns": {
+        "0": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "1": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "2": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "3": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "4": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "5": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "6": {
+            "sdtype": "categorical"
+        },
+        "7": {
+            "sdtype": "categorical"
+        },
+        "8": {
+            "sdtype": "categorical"
+        },
+        "9": {
+            "sdtype": "categorical"
+        },
+        "10": {
+            "sdtype": "categorical"
+        },
+        "11": {
+            "sdtype": "categorical"
+        },
+        "12": {
+            "sdtype": "categorical"
+        },
+        "13": {
+            "sdtype": "categorical"
+        },
+        "14": {
+            "sdtype": "categorical"
+        }
+    },
+    "column_names": [
+        "age",
+        "fnlwgt",
+        "education.num",
+        "capital.gain",
+        "capital.loss",
+        "hours.per.week",
+        "workclass",
+        "education",
+        "marital.status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native.country",
+        "income"
+    ]
+}

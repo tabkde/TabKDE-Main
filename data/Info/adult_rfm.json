@@ -1,0 +1,68 @@
+{
+    "name": "train",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "X_Feature_1",
+        "X_Feature_2",
+        "X_Feature_3",
+        "X_Feature_4",
+        "X_Feature_5",
+        "X_Feature_6",
+        "X_Feature_7",
+        "X_Feature_8",
+        "X_Feature_9",
+        "X_Feature_10",
+        "X_Feature_11",
+        "X_Feature_12",
+        "X_Feature_13",
+        "X_Feature_14",
+        "Constant_Column",
+        "Y_Feature_1"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+    ],
+    "cat_col_idx": [
+        14
+    ],
+    "target_col_idx": [
+        15
+    ],
+    "file_type": "csv",
+    "data_path": "data/adult_rfm/train.csv",
+    "test_path": "data/adult_rfm/test.csv",
+    "column_info": {
+        "X_Feature_1": "float",
+        "X_Feature_2": "float",
+        "X_Feature_3": "float",
+        "X_Feature_4": "float",
+        "X_Feature_5": "float",
+        "X_Feature_6": "float",
+        "X_Feature_7": "float",
+        "X_Feature_8": "float",
+        "X_Feature_9": "float",
+        "X_Feature_10": "float",
+        "X_Feature_11": "float",
+        "X_Feature_12": "float",
+        "X_Feature_13": "float",
+        "X_Feature_14": "float",
+        "Constant_Column": "str",
+        "Y_Feature_1": "float"
+    },
+    "train_num": 16280,
+    "test_num": 16281
+}

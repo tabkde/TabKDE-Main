@@ -1,0 +1,62 @@
+{
+    "name": "ibm_func",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "User",
+        "Card",
+        "Year",
+        "Month",
+        "Day",
+        "Time",
+        "Amount",
+        "Zip",
+        "Merchant City",
+        "Merchant State",
+        "Use Chip",
+        "Merchant Name",
+        "MCC",
+        "Is Fraud?"
+    ],
+    "num_col_idx": [
+        6
+    ],
+    "cat_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "target_col_idx": [
+        13
+    ],
+    "file_type": "csv",
+    "data_path": "data/ibm_func/train_data.csv",
+    "test_path": "data/ibm_func/test_data.csv",
+    "column_info": {
+        "User": "str",
+        "Card": "str",
+        "Year": "str",
+        "Month": "str",
+        "Day": "str",
+        "Time": "str",
+        "Amount": "float",
+        "Zip": "str",
+        "Merchant City": "str",
+        "Merchant State": "str",
+        "Use Chip": "str",
+        "Merchant Name": "str",
+        "MCC": "str",
+        "Is Fraud?": "str"
+    },
+    "train_num": 176221,
+    "test_num": null
+}
