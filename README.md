@@ -15,7 +15,7 @@ This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) c
    ```bash
    python download_dataset.py
    ```
-   *(For IBM dataset, use the link provided in the original paper {https://www.kaggle.com/code/yichenzhang1226/ibm-credit-card-fraud-detection-eda-random-forest/input?select=credit_card_transactions-ibm_v2.csv}.)*
+   *(For IBM dataset, use the link provided in the original paper \hyperlink{link}{https://www.kaggle.com/code/yichenzhang1226/ibm-credit-card-fraud-detection-eda-random-forest/input?select=credit_card_transactions-ibm_v2.csv}.)*
 
 2. **Process the Dataset**
 
