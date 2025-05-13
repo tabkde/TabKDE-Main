@@ -3,7 +3,7 @@
 This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) codebase by adding:
 
 - **TabKDE** methods
-- **Hybrid models** that combine KDE and VAE/Diffusion approaches
+- **Hybrid models** that combine TabKDE and VAE/Diffusion approaches
 
 ---
 
@@ -15,7 +15,7 @@ This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) c
    ```bash
    python download_dataset.py
    ```
-   *(For IBM dataset, use the link provided in the original paper.)*
+   *(For IBM dataset, use the link provided in the original paper {https://www.kaggle.com/code/yichenzhang1226/ibm-credit-card-fraud-detection-eda-random-forest/input?select=credit_card_transactions-ibm_v2.csv}.)*
 
 2. **Process the Dataset**
 
@@ -30,8 +30,8 @@ This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) c
 
 **TabKDE:**
 ```bash
-python main.py --dataname adult --method TabKDE --mode train
-python main.py --dataname adult --method TabKDE --mode sample
+python main.py --dataname "$dataname"  --method TabKDE --mode train
+python main.py --dataname "$dataname"  --method TabKDE --mode sample
 ```
 
 **Simple_KDE (sampling only):**
