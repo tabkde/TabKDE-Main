@@ -13,7 +13,7 @@ This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) c
 
    Run:
    ```bash
-   python download_dataset.py
+   python download_dataset.py 
    ```
 *(For the IBM dataset, use the link — [credit_card_transactions-ibm_v2.csv](https://www.kaggle.com/code/yichenzhang1226/ibm-credit-card-fraud-detection-eda-random-forest/input?select=credit_card_transactions-ibm_v2.csv).) to download and follow the instruction in the paper to create the tran/test split*
 
@@ -22,7 +22,7 @@ This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) c
 
    Run:
    ```bash
-   python process_dataset.py
+   python process_dataset.py --dataname "$dataname"
    ```
 
 ---
@@ -37,7 +37,7 @@ python main.py --dataname "$dataname"  --method TabKDE --mode sample
 
 **Simple_KDE (sampling only):**
 ```bash
-python main.py --dataname adult --method simple_KDE --mode sample
+python main.py --dataname "$dataname" --method simple_KDE --mode sample
 ```
 
 ---
@@ -47,8 +47,8 @@ python main.py --dataname adult --method simple_KDE --mode sample
 Requires **TabKDE** training first (uses copula embedding).
 
 ```bash
-python coreset.py --dataname adult
-python coreset_random.py --dataname adult
+python coreset.py --dataname "$dataname"
+python coreset_random.py --dataname "$dataname"
 ```
 
 ---
@@ -67,7 +67,7 @@ python main.py --dataname "$dataname" --method tabsyn --mode train --latent_enco
 
 3. **Sample**
 ```bash
-python main.py --dataname adult --method tabsyn --mode sample --latent_encoding copula_diff_encoding
+python main.py --dataname "$dataname" --method tabsyn --mode sample --latent_encoding copula_diff_encoding
 ```
 
 ---
@@ -114,3 +114,7 @@ python main.py --dataname "$dataname" --method simple_KDE_VAE_encoding --mode sa
 ```bash
 python main.py --dataname "$dataname" --method baseline --mode train
 ```
+
+
+
+
