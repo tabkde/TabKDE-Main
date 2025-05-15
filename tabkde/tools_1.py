@@ -1012,7 +1012,7 @@ class DataProcessor:
         #                              'BILL_AMT5', 
         #                              'BILL_AMT6'
         #                             ]
-            cprint(f'Data is Default and columns in {forced_to_cat_columns} are forced to be categorical', bold = True, color = 'red')
+        #   cprint(f'Data is Default and columns in {forced_to_cat_columns} are forced to be categorical', bold = True, color = 'red')
         elif data_name_ and data_name_ in ['ibm_func']:
            #  selected_columns = ['User','Zip',  'MCC', 'Card', 'Amount', 'Year', 'Month', 'Day', 'Time',  'Use Chip', 
            # 'Is Fraud?']
