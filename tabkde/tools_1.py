@@ -968,7 +968,7 @@ class DataProcessor:
             #                             'BILL_AMT5', 
             #                             'BILL_AMT6'
             #                            ]
-                cprint(f'ordinal_columns are {self.ordinal_columns}', color = 'red', bold = True)
+            #    cprint(f'ordinal_columns are {self.ordinal_columns}', color = 'red', bold = True)
 
             # Extract categorical column indices and names
             if "cat_col_idx" in data and "column_names" in data:
