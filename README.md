@@ -157,9 +157,7 @@ python eval/eval_mle.py --dataname "$dataname" --model "$method"
 python eval/eval_dcr.py --dataname "$dataname" --model "$method"
 ```
 
-*Note: The optimal DCR score depends on the ratio between #Train and #Holdout (#Test). Ideally, the DCR score should be:*  
-**#Train / (#Train + #Holdout)**  
-*To achieve an optimal score of 50%, the training and testing sets should be of equal size.*
+*Note:  To achieve an optimal score of 50%, the training and testing sets should be of equal size.*
 
 ### 🕵️ Detection: Classifier Two Sample Test (C2ST)
 
