@@ -1,9 +1,11 @@
 # TabKDE and Hybrid Models
 
-<p style="color:red;"><strong>This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) codebase by adding:
+---
+
+🚨 **Important:**  This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) codebase by adding:
 
 - **TabKDE** methods
-- **Hybrid models** that combine TabKDE and VAE/Diffusion approaches</strong></p>
+- **Hybrid models** that combine TabKDE and VAE/Diffusion approaches
 
 ---
 
