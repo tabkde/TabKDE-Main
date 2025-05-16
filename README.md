@@ -167,7 +167,7 @@ python eval/eval_dcr.py --dataname "$dataname" --model "$method"
 python eval/eval_detection.py --dataname "$dataname" --model "$method"
 ```
 
-### 🎯 Alpha Precision and Beta Recall
+### 🧮  Alpha Precision and Beta Recall
 
 - **α-Precision**: Fidelity of synthetic data  
 - **β-Recall**: Diversity of synthetic data
