@@ -136,7 +136,6 @@ python main.py --dataname "$dataname" --method "$baseline" --mode sample
 We evaluate the quality of synthetic data using metrics from various aspects.
 
 ### 📊 Density Estimation (Univariate + Pairwise Correlation)
-[Documentation Link](https://docs.sdv.dev/sdmetrics/reports/quality-report/whats-included)
 
 ```bash
 python eval/eval_density.py --dataname [NAME_OF_DATASET] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
@@ -165,11 +164,10 @@ python eval/eval_detection.py --dataname "$dataname" --model "$method"
 ```
 
 ### 🎯 Alpha Precision and Beta Recall
-[Paper Link](https://arxiv.org/abs/2102.08921)
 
 - **α-Precision**: Fidelity of synthetic data  
 - **β-Recall**: Diversity of synthetic data
 
 ```bash
-python eval/eval_quality.py --dataname "$dataname"] --model "$method"
+python eval/eval_quality.py --dataname "$dataname" --model "$method"
 ```
