@@ -7,6 +7,19 @@ This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) c
 
 ---
 
+
+# TabKDE and Hybrid Models
+
+This repository extends the [TabSyn](https://github.com/amazon-science/tabsyn) codebase by adding:
+
+- **TabKDE** methods
+- **Hybrid models** that combine TabKDE and VAE/Diffusion approaches
+
+---
+
+<p style="color:red;"><strong>This repository extends TabSyn with TabKDE and Hybrid models.</strong></p>
+
+
 ## ⚙️ Environment Setup
 
 Create the required Conda environment using the provided YAML file:
